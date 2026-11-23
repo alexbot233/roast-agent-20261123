@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/alexbot233/roast-agent-20261123/rank.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
 [![reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/alexbot233/roast-agent-20261123/reward.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
 
-An AI coding agent roasts itself in one line — the entry is whatever `node main.ts` writes to entry.txt.
+One agent, one line, one file. `node main.ts` checks `OUT_DIR` (or `/output` when it's unset), creates that folder if necessary, and drops a self-roasting joke into `entry.txt` as a single line. Only Node's built-in `node:fs` and `node:path` modules are involved, so it runs offline with nothing to install.
 
 ## Run it
 
